@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>holodev</title>
+    <script>  
+      var _renderMode = 'TuningPanelOn';
+      var _nShaderMode = "basic";
+      var _messageFlag = 'MessageToIDE';
+      var _colorMode = "color";  //"monochrome"
+      var _camFov = 50.00;      
+      var _camPosition = {x:0.00,y:0.00,z:300};
+      var _tarPosition = {x:0.00,y:0.00,z:0};
+      var _holoScreenSize = 40;
+      var _up = 20;
+      var _down = -20;		  
+    </script>  
+    <style type="text/css">
+      body {
+        overflow:hidden;
+      }
+    </style>         
+  </head>    
+  <body>
+    <div id="yaw" style="display: none;">0</div>
+    <div id="pitch" style="display: none;">0</div>
+    <div id="roll" style="display: none;">0</div>
+  </body>
+  <!--add library here-->
+  <script src="js/three.min.js"></script>      
+  <script src="js/LeiaCore-0.0.4.min.js"></script>     
+  <script src="js/default.js"></script>
+</html>
+    
